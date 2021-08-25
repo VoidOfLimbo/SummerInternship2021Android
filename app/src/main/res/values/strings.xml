@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+    <string name="error_no_sdcard">No SD card, unable to store recording data</string>
+    <string name="error_state_record">Recording, please stop recording first</string>
+    <string name="error_unknown">Unknown Error</string>
+    <string name="notice">In this demo we will upload audio to firebase server and receive it from any client</string>
+    <string name="try_it">Let`s Go</string>
+    <string name="send_audio">Send Audio</string>
+    <string name="playlist">Playlist</string>
+    <string name="playlist_title">Playlist From Server</string>
+    <string name="record_screen_title">Record Screen</string>
+    <string name="recording_notification">Start Recording</string>
+    <string name="record_new_audio">Record New Audio</string>
+    <string name="submit_audio">Submit Audio</string>
+    <string name="recording_stopped">Play to test your audio</string>
+    <string name="recording_started">Stop Recording</string>
+    <string name="testingAudio">You can record audio again or submit this audio</string>download
+    <string name="download_audio">Download Audio</string>
+    <string name="open_downloader">Browse</string>
+    <string name="play_downloaded_audio">Play Downloaded Audio</string>
+    <string name="before_downloading_instruction">Make sure your internet is on before downloading</string>
+    <string name="receive_audio_textview">Fetch audio from Server</string>
+    <string name="load_screen">URIP ITC Application</string>
+    <string name="or_separator">---------------OR---------------</string>
+</resources>

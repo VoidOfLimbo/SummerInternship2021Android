@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListScreen">
+
+    <Button
+        android:id="@+id/button_download_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="downloadFromFirebase"
+        android:text="@string/download_audio"
+        android:textColor="@color/button_text_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        android:background="@drawable/app_default_buttons"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_play_downloaded_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_downloaded_audio"
+        android:textColor="@color/button_text_background"
+        android:onClick="playAudio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_download_audio"
+        app:layout_constraintVertical_bias="0.1"
+        android:background="@drawable/app_default_buttons"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/before_downloading_instruction"
+        app:layout_constraintBottom_toTopOf="@+id/button_download_audio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

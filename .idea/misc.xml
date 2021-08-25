@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/app_default_buttons.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/default_buttons.xml" value="2.1724137931034484" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/ic_baseline_record_voice_over_24.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/ic_baseline_stop_24.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="2.1551724137931036" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/drawable/round_image_button.xml" value="2.1724137931034484" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/layout/activity_list_screen.xml" value="0.26222826086956524" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/layout/activity_load_screen.xml" value="0.26222826086956524" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/layout/activity_record_screen.xml" value="0.2644927536231884" />
+        <entry key="..\:/PassiveFiles/ChatApplication/app/src/main/res/mipmap-anydpi-v26/myAppIcon.xml" value="0.403125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
