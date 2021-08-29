@@ -19,7 +19,6 @@ public class LoadScreen extends AppCompatActivity {
     Button  TryApp;
     private String[] AppPermissions;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +32,6 @@ public class LoadScreen extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 Manifest.permission.RECORD_AUDIO
         };
-
-
     }
 
     private boolean checkPermission(Context context, String... appPermissions){

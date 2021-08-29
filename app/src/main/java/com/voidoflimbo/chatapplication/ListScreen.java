@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
@@ -51,7 +50,6 @@ public class ListScreen extends AppCompatActivity {
                     }
                 });
     }
-
 
     public void downloadFromFirebase(View view) {
         if (!isNetworkAvailable()) {
@@ -111,5 +109,4 @@ public class ListScreen extends AppCompatActivity {
 
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
-
 }
